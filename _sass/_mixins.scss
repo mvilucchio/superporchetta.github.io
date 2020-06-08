@@ -1,6 +1,6 @@
 // Underline
 @mixin underline($width: 2px, $style: solid, $border-color: $link) {
-  border-bottom: 2px solid $border-color; 
+  border-bottom: 2px solid $border-color;
 }
 
 // Clearfix
@@ -18,7 +18,7 @@
     }
 }
 
-// BACKGROUND GRADIENT 
+// BACKGROUND GRADIENT
 @mixin background-gradient($startColor: #3C3C3C, $endColor: #999999) {
     background-color: $startColor;
     background-image: -webkit-gradient(linear, left top, left bottom, from($startColor), to($endColor));
@@ -84,7 +84,7 @@
 @mixin box-rgba($r: 60, $g: 3, $b: 12, $opacity: 0.23, $color: #3C3C3C) {
   background-color: transparent;
   background-color: rgba($r, $g, $b, $opacity);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr#$color,endColorstr=$color);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color,endColorstr=$color);
             zoom:   1;
 }
 
