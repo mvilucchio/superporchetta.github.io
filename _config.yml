@@ -1,20 +1,18 @@
-title:            Balzac
+title:            Moller
 tagline:          A beautiful theme.
 description:      Describe your website.
 canonical: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Matteo Vilucchio
   avatar:         avatar.png
   bio:            "Aesthete & Athlete"
   email:          cole@coletownsend.com
-  twitter:        twnsndco
   github:         coletownsend
   instagram:      ctrunsthis
-  dribbble:       coletownsend
   disqus:         balzac
-  location:       "Buffalo, NY"
+  location:       "Pisa, IT"
   # Plug in your disqus shortname!
 
 tools:
@@ -28,19 +26,16 @@ opengraph:
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: Posts
+    url: https://www.google.com
+    external: true
   - title: About
     url: /about
-  - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
-    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Rome
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 
 kramdown:
