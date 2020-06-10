@@ -1,7 +1,8 @@
 ---
 layout: article
-title: Asymmetric Anharmonic Hoscillator
-tags: physic
+title: Asymmetrical Anharmonic  Oscillator
+tags: Physics, PerturbationTheory
+mathjax: true
 ---
 
 posuere magna accumsan quis. Pellentesque in quam accumsan purus tincidunt bibendum. Suspendisse tincidunt, odio vel volutpat gravida, augue lorem sagittis neque, ac viverra augue nisl sed dui. In et blandit tortor. Donec faucibus maximus sapien nec semper. In pharetra nulla sapien, sit amet porttitor lectus egestas vel. Aliquam luctus metus in risus vulputate dignissim. Donec nisi dolor, accumsan sit amet magna vitae, efficitur consequat tellus. Donec tristique pretium elit, ac bibendum quam dictum id. Aenean id gravida purus, a molestie massa. Integer augue lectus, dapibus ac ipsum non, vulputate blandit est. Donec tristique justo massa, eu finibus nulla semper quis. Etiam ac felis lectus. Sed ac mattis tellus.
