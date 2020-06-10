@@ -1,20 +1,13 @@
-{% include head-dark.html %}
-
-<section class="article pad-top">
-
-      <article class="wrap post">
-        <header class="post-header">
-          <hgroup>
-            <h1>{{ page.title }}</h1>
-            <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
-
-          </hgroup>
-        </header>
-
-        {{ content }}
-
-      </article>
-    </section>
+---
+layout: page
+title: 404
+show_title: false
+---
+<div class="layout--404">
+  <div class="sign">
+    <h1>404</h1>
+    <p>Page not found :(</p>
+  </div>
 </div>
 
-{% include footer.html %}
+{{ content }}
