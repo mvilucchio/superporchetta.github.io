@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Asymmetrical Anharmonic  Oscillator
-tags: Physics, PerturbationTheory
+title: Asymmetrical Anharmonic Oscillator
+tags: Physics PerturbationTheory
 mathjax: true
 ---
 
