@@ -62,8 +62,11 @@
 
           {%- if _show_date -%}
             <li>
+              <i class="far fa-clock" aria-hidden="true"></i> <span>3 min</span>
+            </li>
+            <li>
               {%- include snippets/get-locale-string.html key='ARTICLE_DATE_FORMAT' -%}
-              <i class="far fa-calendar-alt"></i> <span>{{ include.article.date | date: __return }}</span>
+              <i class="far fa-calendar-alt" aria-hidden="true"></i> <span>{{ include.article.date | date: __return }}</span>
             </li>
           {%- endif -%}
 
