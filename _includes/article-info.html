@@ -33,6 +33,14 @@
     {%- assign _pageview = false -%}
   {%- endif -%}
 
+  <!-- Reading time code -->
+  {% assign minutes = content | number_of_words | divided_by: 180 %}
+  {% if minutes == 0 %}
+    {% assign read_time = site.var_less_than_a_minute_read %}
+  {% else %}
+    {% assign read_time = minutes | append: "&nbsp;" | append: site.var_min_read %}
+  {% endif %}
+
   {%- assign _paths_archive = site.paths.archive | default: site.data.variables.default.paths.archive -%}
 
   {%- if _show_tags or _show_author or _show_date or _pageview -%}
@@ -57,12 +65,12 @@
       {%- if _show_author or _show_date or _pageview -%}
         <ul class="right-col menu">
           {%- if _show_author  -%}
-            <li><i class="fas fa-user"></i> <span>{{ _author.name }}</span></li>
+            <li><i class="fas fa-user" aria-hidden="true"></i> <span>{{ _author.name }}</span></li>
           {%- endif -%}
 
           {%- if _show_date -%}
             <li>
-              <i class="far fa-clock" aria-hidden="true"></i> <span>3 min</span>
+              <i class="far fa-clock" aria-hidden="true"></i> <span>{{read_time}}</span>
             </li>
             <li>
               {%- include snippets/get-locale-string.html key='ARTICLE_DATE_FORMAT' -%}
@@ -74,7 +82,7 @@
             {%- if site.pageview.provider -%}
               {%- include snippets/get-locale-string.html key='VIEWS' -%}
               {%- assign _locale_views = __return -%}
-              <li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="{{ include.article.key }}">0</span> {{ _locale_views }}</li>
+              <li><i class="far fa-eye" aria-hidden="true"></i> <span class="js-pageview" data-page-key="{{ include.article.key }}">0</span> {{ _locale_views }}</li>
             {%- endif -%}
           {%- endif -%}
         </ul>
