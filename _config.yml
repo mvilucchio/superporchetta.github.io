@@ -223,3 +223,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+
+## => variables
+##############################
+var_min_read: min.
+var_less_than_a_minute_read: < 1 min.
