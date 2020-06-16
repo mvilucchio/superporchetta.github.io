@@ -24,7 +24,8 @@
 
   {%- assign _show_author = include.article.author -%}
 
-  {%- include snippets/assign.html target=site.data.variables.default.page.pageview
+  {%- include snippets/assign.html
+    target=site.data.variables.default.page.pageview
     source0=layout.pageview source1=page.pageview -%}
   {%- assign _pageview = __return -%}
   {%- if _pageview or include.show_pageview -%}
@@ -68,10 +69,13 @@
             <li><i class="fas fa-user" aria-hidden="true"></i> <span>{{ _author.name }}</span></li>
           {%- endif -%}
 
-          {%- if _show_date -%}
+          {%- if _show_time -%}
             <li>
-              <i class="far fa-clock" aria-hidden="true"></i> <span>{{read_time}}</span>
+              <i class="far fa-clock" aria-hidden="true"></i> <span>{{ read_time }}</span>
             </li>
+          {%- endif -%}
+
+          {%- if _show_date -%}
             <li>
               {%- include snippets/get-locale-string.html key='ARTICLE_DATE_FORMAT' -%}
               <i class="far fa-calendar-alt" aria-hidden="true"></i> <span>{{ include.article.date | date: __return }}</span>
