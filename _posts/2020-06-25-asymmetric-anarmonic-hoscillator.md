@@ -54,6 +54,10 @@ $$
 
 Eget nullam non nisi est sit amet facilisis. Pretium quam vulputate dignissim suspendisse. Donec et odio pellentesque diam volutpat. Sed sed risus pretium quam. Quisque egestas diam in arcu cursus. Nunc mi ipsum faucibus vitae aliquet. Augue ut lectus arcu bibendum at varius vel pharetra vel. Semper risus in hendrerit gravida rutrum quisque non. Et tortor consequat id porta nibh venenatis cras. Ac felis donec et odio pellentesque diam volutpat commodo. Enim sit amet venenatis urna. Tempus egestas sed sed risus pretium. Mattis rhoncus urna neque viverra justo nec. Pellentesque elit eget gravida cum sociis natoque. Semper quis lectus nulla at volutpat diam. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Neque sodales ut etiam sit. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper.
 
+$$
+\delta E_{0}=-\frac{11}{32} g^{2}-\frac{465}{512} g^{4} - \frac{39709}{8192}g^6 - \frac{19250805}{524288}g^8 - \ldots
+$$
+
 Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Etiam erat velit scelerisque in dictum non consectetur a erat. Nisl tincidunt eget nullam non nisi est sit. Proin fermentum leo vel orci porta non. Diam vulputate ut pharetra sit amet aliquam id diam maecenas. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Mi bibendum neque egestas congue quisque egestas diam in arcu. Iaculis urna id volutpat lacus laoreet non. Sit amet facilisis magna etiam tempor. Massa sed elementum tempus egestas sed. Nibh ipsum consequat nisl vel pretium lectus quam id.
 
 
