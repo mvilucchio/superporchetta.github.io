@@ -60,6 +60,6 @@ $$
 
 Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Etiam erat velit scelerisque in dictum non consectetur a erat. Nisl tincidunt eget nullam non nisi est sit. Proin fermentum leo vel orci porta non. Diam vulputate ut pharetra sit amet aliquam id diam maecenas. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Mi bibendum neque egestas congue quisque egestas diam in arcu. Iaculis urna id volutpat lacus laoreet non. Sit amet facilisis magna etiam tempor. Massa sed elementum tempus egestas sed. Nibh ipsum consequat nisl vel pretium lectus quam id.
 
-
+![Results](assets/images/posts/black_perturbative_coeff_confront.png)
 
 Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Morbi enim nunc faucibus a pellentesque sit. Facilisis volutpat est velit egestas dui id ornare. Risus ultricies tristique nulla aliquet enim tortor at auctor urna. Nibh sed pulvinar proin gravida. Arcu ac tortor dignissim convallis aenean et. Dui ut ornare lectus sit. Diam vel quam elementum pulvinar etiam. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Egestas maecenas pharetra convallis posuere morbi. Tempor id eu nisl nunc mi ipsum. Odio eu feugiat pretium nibh ipsum consequat nisl vel pretium. Sit amet nisl purus in mollis nunc sed id semper. At consectetur lorem donec massa sapien faucibus et. Porta non pulvinar neque laoreet suspendisse interdum. Tortor vitae purus faucibus ornare suspendisse. Elit duis tristique sollicitudin nibh. Dolor sit amet consectetur adipiscing.
