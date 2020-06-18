@@ -30,4 +30,8 @@ Hi! My name is Matteo Vilucchio, born in Bologna, IT in 1998.
 
 I am currently studying at the [University of Pisa](https://www.df.unipi.it), master Physics. I will soon be a student at the [Ecole Normale Superieure](https://www.phys.ens.fr/?lang=en) in Paris, FR.
 
-My main interests are physics and computer science.
+My main interests are physics and computer science, but I don't really know what I will be talking about.
+
+###### Contribution
+
+To make a man like me happy is a simple thing. If you find errors of any kind in any part of the blog you can open an **Issue** on the [GitHub page](https://github.com/superporchetta/superporchetta.github.io).
