@@ -20,7 +20,12 @@ $$
 
 Donec nisi dolor, accumsan sit amet magna vitae, efficitur consequat tellus. Donec tristique pretium elit, ac bibendum quam dictum id. Aenean id gravida purus, a molestie massa. Integer augue lectus, dapibus ac ipsum non, vulputate blandit est. Donec tristique justo massa, eu finibus nulla semper quis. Etiam ac felis lectus. Sed ac mattis tellus.
 
-$$ E(z) - E_0 = \frac{1}{\pi} \int_0^{\infty} d\lambda \frac{\text{Im}\, E(\lambda)}{z - \lambda} = \sum_{k=1}^{\infty} \left( \frac{1}{\pi} \int_0^{\infty} d\lambda \frac{\text{Im}\, E(\lambda)}{\lambda^{k+1}} \right) \, z^k $$
+$$
+\begin{aligned}
+E(z) - E_0 &= \frac{1}{\pi} \int_0^{\infty} d\lambda \frac{\text{Im}\, E(\lambda)}{z - \lambda} = \\
+&= \sum_{k=1}^{\infty} \left( \frac{1}{\pi} \int_0^{\infty} d\lambda \frac{\text{Im}\, E(\lambda)}{\lambda^{k+1}} \right) \, z^k
+\end{aligned}
+$$
 
 Suspendisse ac velit tempus, rhoncus neque ac, pharetra neque. Nulla sagittis elit ut nunc bibendum, sed efficitur dolor sagittis. Donec hendrerit augue vel viverra sollicitudin. Vestibulum rutrum felis nec placerat malesuada. Maecenas aliquet viverra aliquet. Etiam sit amet neque ipsum. Praesent sit amet quam non ex ultrices efficitur ac ut enim.
 
@@ -31,7 +36,10 @@ $$
 Aenean ex orci, volutpat quis condimentum in, convallis sit amet tortor. Integer aliquam vulputate tellus non placerat. Ut nec eros pharetra, gravida felis et, mollis diam. Integer a efficitur eros, at dignissim purus. Maecenas lorem dolor, rhoncus maximus diam ut, porttitor congue turpis. Proin vulputate id nunc ac aliquam. Sed lacinia, leo in suscipit molestie, nulla augue auctor mi, tristique blandit nibh eros ac est. In erat enim, sodales non lectus in, gravida suscipit leo. Curabitur dapibus, odio in auctor interdum, nibh arcu condimentum purus, in condimentum sapien diam et metus. Fusce elementum lorem lacinia libero vehicula scelerisque. Sed ornare lobortis dapibus.
 
 $$
-\gamma_{0}^{(n)}(\lambda)=\frac{2^{2+5 n}}{n ! \sqrt{\pi}} \frac{e^{-\frac{8}{15 \lambda}}}{\sqrt{\lambda^{2 n+1}}} \quad \implies \quad n=1 \quad \gamma_{0}^{(0)}(\lambda)=\frac{4}{\sqrt{\pi}} \frac{1}{\sqrt{\lambda}} e^{-\frac{8}{15 \lambda}}
+\begin{aligned}
+\gamma_{0}^{(n)}(\lambda) &= \frac{2^{2+5 n}}{n ! \sqrt{\pi}} \frac{e^{-\frac{8}{15 \lambda}}}{\sqrt{\lambda^{2 n+1}}} \\
+\gamma_{0}^{(0)}(\lambda) &= \frac{4}{\sqrt{\pi}} \frac{1}{\sqrt{\lambda}} e^{-\frac{8}{15 \lambda}}
+\end{aligned}
 $$
 
 Maecenas ullamcorper et nisl quis maximus. Duis et blandit ex, id viverra elit. Nulla pellentesque tortor et justo aliquam, non viverra mauris posuere. Sed lobortis et lacus nec blandit. Nunc blandit eleifend velit. Quisque sed ex id est suscipit efficitur sed in odio. Suspendisse nec consequat sapien. Phasellus tincidunt finibus posuere. Mauris nec ornare leo. Donec vel libero magna.
