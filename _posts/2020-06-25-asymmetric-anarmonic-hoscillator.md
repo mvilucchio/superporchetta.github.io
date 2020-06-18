@@ -57,13 +57,20 @@ $$
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere morbi leo urna molestie at. Dignissim convallis aenean et tortor at. Libero id faucibus nisl tincidunt eget. Consectetur libero id faucibus nisl tincidunt eget nullam. Faucibus purus in massa tempor nec feugiat nisl pretium. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Imperdiet proin fermentum leo vel. Condimentum vitae sapien pellentesque habitant morbi tristique senectus.
 
 $$
-B(x)=\sum_{k=0}^{\infty} g^{k} B_{k}(x) ; \quad B_{k}(x)=\sum_{j=0}^{3 k} A_{k, j} x^{j} ; \quad 2 E=\sum_{k=0}^{\infty} \varepsilon_{k} g^{k} ; \quad \varepsilon_{0}=1
+\begin{aligned}
+B(x) &= \sum_{k=0}^{\infty} g^{k} B_{k}(x)\\
+B_{k}(x) &= \sum_{j=0}^{3 k} A_{k, j} x^{j} \\
+2 E &= \sum_{k=0}^{\infty} \varepsilon_{k} g^{k} \quad \varepsilon_{0}=1
+\end{aligned}
 $$
 
 Eget nullam non nisi est sit amet facilisis. Pretium quam vulputate dignissim suspendisse. Donec et odio pellentesque diam volutpat. Sed sed risus pretium quam. Quisque egestas diam in arcu cursus. Nunc mi ipsum faucibus vitae aliquet. Augue ut lectus arcu bibendum at varius vel pharetra vel. Semper risus in hendrerit gravida rutrum quisque non. Et tortor consequat id porta nibh venenatis cras. Ac felis donec et odio pellentesque diam volutpat commodo. Enim sit amet venenatis urna. Tempus egestas sed sed risus pretium. Mattis rhoncus urna neque viverra justo nec. Pellentesque elit eget gravida cum sociis natoque. Semper quis lectus nulla at volutpat diam. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Neque sodales ut etiam sit. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper.
 
 $$
-\delta E_{0}=-\frac{11}{32} g^{2}-\frac{465}{512} g^{4} - \frac{39709}{8192}g^6 - \frac{19250805}{524288}g^8 - \ldots
+\begin{aligned}
+\delta E_{0}=&-\frac{11}{32} g^{2}-\frac{465}{512} g^{4} \\
+&- \frac{39709}{8192}g^6 - \frac{19250805}{524288}g^8 - \ldots
+\end{aligned}
 $$
 
 Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Etiam erat velit scelerisque in dictum non consectetur a erat. Nisl tincidunt eget nullam non nisi est sit. Proin fermentum leo vel orci porta non. Diam vulputate ut pharetra sit amet aliquam id diam maecenas. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Mi bibendum neque egestas congue quisque egestas diam in arcu. Iaculis urna id volutpat lacus laoreet non. Sit amet facilisis magna etiam tempor. Massa sed elementum tempus egestas sed. Nibh ipsum consequat nisl vel pretium lectus quam id.
