@@ -12,7 +12,11 @@ $$
 V(x)=\frac{1}{2} x^{2}-g \frac{x^{3}}{2}
 $$
 
-posuere magna accumsan quis. Pellentesque in quam accumsan purus tincidunt bibendum. Suspendisse tincidunt, odio vel volutpat gravida, augue lorem sagittis neque, ac viverra augue nisl sed dui. In et blandit tortor. Donec faucibus maximus sapien nec semper. In pharetra nulla sapien, sit amet porttitor lectus egestas vel. Aliquam luctus metus in risus vulputate dignissim.
+posuere magna accumsan quis. Pellentesque in quam accumsan purus tincidunt bibendum. Suspendisse tincidunt, odio vel volutpat gravida, augue lorem sagittis neque, ac viverra augue nisl sed dui. In et blandit tortor.
+
+![Cubic Potential](/assets/images/posts/black_potential.png)
+
+Donec faucibus maximus sapien nec semper. In pharetra nulla sapien, sit amet porttitor lectus egestas vel. Aliquam luctus metus in risus vulputate dignissim.
 
 $$
 \frac{1}{2} \ll \frac{2}{27 g^{2}} \quad \implies \quad|g| \ll 0.38
