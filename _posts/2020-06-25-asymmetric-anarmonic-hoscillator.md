@@ -56,7 +56,7 @@ $$
 To evaluate the integral, we can split it into two pieces with respect to a point a much greater than the first extreme and much smaller than the second extreme. For the first integral we can neglect the contribute linear in g to the extrema at the leading order, while for the second integral we want to expand in powers of $$ \epsilon $$. Then the integral of the momentum at the leading order in g is:
 
 $$
-\int p d x=\int \sqrt{x^{2}-g x^{3}-\epsilon} d x \simeq \frac{4}{15 g^{2}}-\frac{\epsilon}{4}+\frac{\epsilon}{2} \log \left(\frac{g \sqrt{\epsilon}}{8}\right)
+\int p d x \simeq \frac{4}{15 g^{2}}-\frac{\epsilon}{4}+\frac{\epsilon}{2} \log \left(\frac{g \sqrt{\epsilon}}{8}\right)
 $$
 
 Now, in order to normalize the function to the one of a harmonic oscillator insider around zero, we confront the asymptotic behaviour of the AH wave function and the WKB wave function. We find the coefficient to find the decay rate is:
