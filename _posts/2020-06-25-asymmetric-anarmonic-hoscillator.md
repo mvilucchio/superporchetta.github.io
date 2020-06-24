@@ -5,6 +5,8 @@ tags: Physics PerturbationTheory
 mathjax: true
 ---
 
+### Introduction ###
+
 It is not easily seen, but one can connect the perturbation theory for a metastable state to its decay rate. In particular, one can calculate the metastable perturbative correction to the energy of a state by using the WKB approximation to evaluate the decay rate to see that the resulting corrections to the energy coincide to the one obtained with straight perturbation theory.
 
 The study will be done on a toy model representative of the false vacuum potentials in QFT. The potential considered is:
@@ -26,7 +28,7 @@ $$
 
 If we were interested in studying the first excited level, we would have a different condition, a third smaller.
 
-###WKB Approach
+### WKB Approach ###
 
 The first approach we can use is considering the perturbative series to the energy. We can express it in terms of a parameter lambda which we can define in terms of g later. In this particular case, we can apply the Cauchy theorem to the complex function and integrate over the discontinuities on the complex plane since for a path of integration to the infinite we the integral vanishes. By looking at the potential for different values of g, we can know where are the branch cuts in the plane. Both for positive and negative g we have a metastable state, but the metastable state vanishes for an imaginary potential, so the cut is for g^2 >0.
 Then we transform the integral only over the cut to obtain:
@@ -77,7 +79,7 @@ $$
 
 To calculate the first 200 terms by the WKB approach, I implemented a numerical algorithm with a exaggerate arithmetic precision: it used 2000 terms.
 
-###Numerical Confront
+### Numerical Confront ###
 
 In order to check the validity of this method, we can calculate the same perturbative therms by a standard perturbative approach. For computational reasons, it is useful to apply perturbation theory to wave functions modulated by a gaussian integral, the asymptotic behaviour of the AH wave functions. The actual eigenfunction of the Schroedinger equation can be written, perturbatively:
 
@@ -115,5 +117,7 @@ Thankfully they coincide! We can see from the second graph that the two correcti
 $$
 E_{k}^{(0)}=\sqrt{\frac{15}{2 \pi^{3}}}\left(\frac{15}{8}\right)^{k} \Gamma\left(k+\frac{1}{2}\right)\left(1-\frac{\delta_{0}}{k}\right) \quad \delta_{0} \simeq 1.408
 $$
+
+### Conclusions ###
 
 Calculation the correction with the WKB approach is much more computationally efficient even though this approach still lacks the corrections to the energy on higher orders in 1/k.
