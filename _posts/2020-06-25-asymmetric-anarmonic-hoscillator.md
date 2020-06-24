@@ -35,7 +35,7 @@ Then we transform the integral only over the cut to obtain:
 
 $$
 \begin{aligned}
-E(z) - E_0 &= \left( E_0 + \sum_{k=1}^{\infty} E_k \lambda^k \right) - E_0
+E(z) - E_0 &= \left( E_0 + \sum_{k=1}^{\infty} E_k \lambda^k \right) - E_0 \\
 &= \frac{1}{\pi} \int_0^{\infty} d\lambda \frac{\text{Im}\, E(\lambda)}{z - \lambda} = \\
 &= \sum_{k=1}^{\infty} \left( \frac{1}{\pi} \int_0^{\infty} d\lambda \frac{\text{Im}\, E(\lambda)}{\lambda^{k+1}} \right) \, z^k
 \end{aligned}
