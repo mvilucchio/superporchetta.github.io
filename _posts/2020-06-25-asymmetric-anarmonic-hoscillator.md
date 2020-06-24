@@ -121,7 +121,10 @@ We can confront the asymptotic behaviour of the tho methods and check if they co
 Thankfully they coincide! We can see from the second graph that the two corrections tend to the same value as the perturbative order increase. Form the second graph; we can also evaluate the first-order correction of the perturbative term in 1/k. The correction could be calculated by doing a numerical fit of which the final result is:
 
 $$
-E_{k}^{(0)}=\sqrt{\frac{15}{2 \pi^{3}}}\left(\frac{15}{8}\right)^{k} \Gamma\left(k+\frac{1}{2}\right)\left(1-\frac{\delta_{0}}{k}\right) \quad \delta_{0} \simeq 1.408
+\begin{aligned}
+  E_{k}^{(0)}&=\sqrt{\frac{15}{2 \pi^{3}}}\left(\frac{15}{8}\right)^{k} \Gamma\left(k+\frac{1}{2}\right)\left(1-\frac{\delta_{0}}{k}\right) \\
+  \delta_{0} &\simeq 1.408
+\end{aligned}
 $$
 
 ### Conclusions ###
