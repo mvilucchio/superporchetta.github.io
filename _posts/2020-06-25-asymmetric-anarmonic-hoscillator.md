@@ -1,64 +1,91 @@
 ---
 layout: article
-title: Asymmetrical Anharmonic Oscillator
+title: Asymmetrical Non-Harmonic Oscillator
 tags: Physics PerturbationTheory
 mathjax: true
-mathjax_autoNumber: true
 ---
 
-Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Ornare suspendisse sed nisi lacus sed viverra tellus. Euismod quis viverra nibh cras. Viverra mauris in aliquam sem fringilla. Eget arcu dictum varius duis at consectetur. Ac tincidunt vitae semper quis. Massa enim nec dui nunc mattis enim ut tellus. Commodo sed egestas egestas fringilla phasellus faucibus. Sodales ut eu sem integer vitae justo eget. Diam vel quam elementum pulvinar. Enim nulla aliquet porttitor lacus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Adipiscing at in tellus integer feugiat scelerisque varius.
+It is not easily seen, but one can connect the perturbation theory for a metastable state to its decay rate. In particular, one can calculate the metastable perturbative correction to the energy of a state by using the WKB approximation to evaluate the decay rate to see that the resulting corrections to the energy coincide to the one obtained with straight perturbation theory.
+
+The study will be done on a toy model representative of the false vacuum potentials in QFT. The potential considered is:
 
 $$
-V(x)=\frac{1}{2} x^{2}-g \frac{x^{3}}{2}
+V(x)=\frac{1}{2} x^{2}-g \frac{x^{3}}{2} \quad g > 0
 $$
 
-posuere magna accumsan quis. Pellentesque in quam accumsan purus tincidunt bibendum. Suspendisse tincidunt, odio vel volutpat gravida, augue lorem sagittis neque, ac viverra augue nisl sed dui. In et blandit tortor.
+This interaction is essentially a harmonic oscillator potential with an odd small perturbation, which order is determined by g. In the limit of $x \rightarrow + \infty$ the cubic potential is greater than the quadratic one, no matter how small g is, so we always have a metastable state.
+In the following document, the following analysis is focused on the fundamental state of the harmonics oscillator which energy is 1/2 in atomic units.
 
 ![Cubic Potential](/assets/images/posts/black_potential.png)
 
-Donec faucibus maximus sapien nec semper. In pharetra nulla sapien, sit amet porttitor lectus egestas vel. Aliquam luctus metus in risus vulputate dignissim.
+Since we are interested in a perturbative approach, the energy level we are interested in is very similar to the one of a harmonic oscillator. The condition for using a perturbative approach is such that the maximum of the potential is much greater than the energy level we are considering. The maximum of the potential depends on g.
 
 $$
-\frac{1}{2} \ll \frac{2}{27 g^{2}} \quad \implies \quad|g| \ll 0.38
+\frac{1}{2} \ll \frac{2}{27 g^{2}} \quad \implies \quad |g| \ll 0.38
 $$
 
-Donec nisi dolor, accumsan sit amet magna vitae, efficitur consequat tellus. Donec tristique pretium elit, ac bibendum quam dictum id. Aenean id gravida purus, a molestie massa. Integer augue lectus, dapibus ac ipsum non, vulputate blandit est. Donec tristique justo massa, eu finibus nulla semper quis. Etiam ac felis lectus. Sed ac mattis tellus.
+If we were interested in studying the first excited level, we would have a different condition, a third smaller.
+
+###WKB Approach
+
+The first approach we can use is considering the perturbative series to the energy. We can express it in terms of a parameter lambda which we can define in terms of g later. In this particular case, we can apply the Cauchy theorem to the complex function and integrate over the discontinuities on the complex plane since for a path of integration to the infinite we the integral vanishes. By looking at the potential for different values of g, we can know where are the branch cuts in the plane. Both for positive and negative g we have a metastable state, but the metastable state vanishes for an imaginary potential, so the cut is for g^2 >0.
+Then we transform the integral only over the cut to obtain:
 
 $$
 \begin{aligned}
-E(z) - E_0 &= \frac{1}{\pi} \int_0^{\infty} d\lambda \frac{\text{Im}\, E(\lambda)}{z - \lambda} = \\
+E(z) - E_0 &= \left( E_0 + \sum_{k=1}^{\infty} E_k \lambda^k \right) - E_0
+&= \frac{1}{\pi} \int_0^{\infty} d\lambda \frac{\text{Im}\, E(\lambda)}{z - \lambda} = \\
 &= \sum_{k=1}^{\infty} \left( \frac{1}{\pi} \int_0^{\infty} d\lambda \frac{\text{Im}\, E(\lambda)}{\lambda^{k+1}} \right) \, z^k
 \end{aligned}
 $$
 
-Suspendisse ac velit tempus, rhoncus neque ac, pharetra neque. Nulla sagittis elit ut nunc bibendum, sed efficitur dolor sagittis. Donec hendrerit augue vel viverra sollicitudin. Vestibulum rutrum felis nec placerat malesuada. Maecenas aliquet viverra aliquet. Etiam sit amet neque ipsum. Praesent sit amet quam non ex ultrices efficitur ac ut enim.
+The last expression is a usable form to work with since it is a series, and we can evaluate, thanks to the WKB methods, the imaginary part of the energy. The imaginary part of the energy is the opposite of half the decay rate, notice the atomic units here. We need to find the right normalization and to evaluate the penetration factor over the barrier.
 
 $$
-\frac{\psi_{HO}^{2}(x)}{\psi_{W K B}^{2}(x)} \underset{x \rightarrow \infty}{\longrightarrow} S_{n} \equiv \frac{\sqrt{\pi}}{n !} 2^{-n} e^{-n-\frac{1}{2}}(2 n+1)^{n+\frac{1}{2}}
+\text{Im}\,E(\lambda) = - \frac{\gamma (\lambda)}{2}
 $$
 
-Aenean ex orci, volutpat quis condimentum in, convallis sit amet tortor. Integer aliquam vulputate tellus non placerat. Ut nec eros pharetra, gravida felis et, mollis diam. Integer a efficitur eros, at dignissim purus. Maecenas lorem dolor, rhoncus maximus diam ut, porttitor congue turpis. Proin vulputate id nunc ac aliquam. Sed lacinia, leo in suscipit molestie, nulla augue auctor mi, tristique blandit nibh eros ac est. In erat enim, sodales non lectus in, gravida suscipit leo. Curabitur dapibus, odio in auctor interdum, nibh arcu condimentum purus, in condimentum sapien diam et metus. Fusce elementum lorem lacinia libero vehicula scelerisque. Sed ornare lobortis dapibus.
+The penetration factor can be evaluated asymptotically from its definition. First, we find the roots of the momentum function in the limit of small g, also considering that the energy of the fundamental level is small: $\epsilon$ is two times the energy of the fundamental state. Then we can evaluate the integral of the momentum to the leading order in g. The roots are:
+
+$$
+\sqrt{\epsilon}+\frac{1}{2} g \epsilon, \quad \frac{1}{g}-g \epsilon
+$$
+
+To evaluate the integral, we can split it into two pieces with respect to a point a much greater than the first extreme and much smaller than the second extreme. For the first integral we can neglect the contribute linear in g to the extrema at the leading order, while for the second integral we want to expand in powers of $\epsilon$. Then the integral of the momentum at the leading order in g is:
+
+$$
+\int p d x=\int \sqrt{x^{2}-g x^{3}-\epsilon} d x \simeq \frac{4}{15 g^{2}}-\frac{\epsilon}{4}+\frac{\epsilon}{2} \log \left(\frac{g \sqrt{\epsilon}}{8}\right)
+$$
+
+Now, in order to normalize the function to the one of a harmonic oscillator insider around zero, we confront the asymptotic behaviour of the AH wave function and the WKB wave function. We find the coefficient to find the decay rate is:
 
 $$
 \begin{aligned}
-\gamma_{0}^{(n)}(\lambda) &= \frac{2^{2+5 n}}{n ! \sqrt{\pi}} \frac{e^{-\frac{8}{15 \lambda}}}{\sqrt{\lambda^{2 n+1}}} \\
-\gamma_{0}^{(0)}(\lambda) &= \frac{4}{\sqrt{\pi}} \frac{1}{\sqrt{\lambda}} e^{-\frac{8}{15 \lambda}}
+  \frac{\psi_{HO}^{2}(x)}{\psi_{W K B}^{2}(x)} & \underset{x \rightarrow \infty}{\longrightarrow} S_n \\
+  S_{n} & \equiv \frac{\sqrt{\pi}}{n !} 2^{-n} e^{-n-\frac{1}{2}}(2 n+1)^{n+\frac{1}{2}}
 \end{aligned}
 $$
 
-Maecenas ullamcorper et nisl quis maximus. Duis et blandit ex, id viverra elit. Nulla pellentesque tortor et justo aliquam, non viverra mauris posuere. Sed lobortis et lacus nec blandit. Nunc blandit eleifend velit. Quisque sed ex id est suscipit efficitur sed in odio. Suspendisse nec consequat sapien. Phasellus tincidunt finibus posuere. Mauris nec ornare leo. Donec vel libero magna.
+Now we have found the decay rate so we can find the energy by integrating over $\lambda$ form 0 to $\infty$. Let us not forget these coefficients are the ones only for the even power of g.
 
 $$
-E_{k}^{(0)}=\sqrt{\frac{15}{2 \pi^{3}}}\left(\frac{15}{8}\right)^{k} \Gamma\left(k+\frac{1}{2} \right)
+\begin{aligned}
+  \gamma_{0}^{(0)}(\lambda) &= \frac{4}{\sqrt{\pi}} \frac{1}{\sqrt{\lambda}} e^{-\frac{8}{15 \lambda}} \, (1+\mathcal{O}(\lambda)) \\
+  E_{k}^{(0)} &= \sqrt{\frac{15}{2 \pi^{3}}}\left(\frac{15}{8}\right)^{k} \Gamma\left(k+\frac{1}{2} \right) \, \left(1+\mathcal{O}\left(\frac{1}{k}\right)\right)
+\end{aligned}
 $$
 
-Integer sit amet lacus id lectus semper tincidunt a vel justo. Maecenas at ornare nisl. Nam nec consequat mi. Maecenas fringilla mattis tincidunt. In nec dui sit amet ligula convallis commodo nec ac nisi. Praesent quis hendrerit metus, quis dictum leo. Praesent maximus lectus eleifend, faucibus sapien et, accumsan ipsum.
+To calculate the first 200 terms by the WKB approach, I implemented a numerical algorithm with a exaggerate arithmetic precision: it used 2000 terms.
+
+###Numerical Confront
+
+In order to check the validity of this method, we can calculate the same perturbative therms by a standard perturbative approach. For computational reasons, it is useful to apply perturbation theory to wave functions modulated by a gaussian integral, the asymptotic behaviour of the AH wave functions. The actual eigenfunction of the Schroedinger equation can be written, perturbatively:
 
 $$
 \psi(x)=B(x) e^{-x^{2} / 2}
 $$
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere morbi leo urna molestie at. Dignissim convallis aenean et tortor at. Libero id faucibus nisl tincidunt eget. Consectetur libero id faucibus nisl tincidunt eget nullam. Faucibus purus in massa tempor nec feugiat nisl pretium. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Imperdiet proin fermentum leo vel. Condimentum vitae sapien pellentesque habitant morbi tristique senectus.
+with:
 
 $$
 \begin{aligned}
@@ -68,7 +95,7 @@ B_{k}(x) &= \sum_{j=0}^{3 k} A_{k, j} x^{j} \\
 \end{aligned}
 $$
 
-Eget nullam non nisi est sit amet facilisis. Pretium quam vulputate dignissim suspendisse. Donec et odio pellentesque diam volutpat. Sed sed risus pretium quam. Quisque egestas diam in arcu cursus. Nunc mi ipsum faucibus vitae aliquet. Augue ut lectus arcu bibendum at varius vel pharetra vel. Semper risus in hendrerit gravida rutrum quisque non. Et tortor consequat id porta nibh venenatis cras. Ac felis donec et odio pellentesque diam volutpat commodo. Enim sit amet venenatis urna. Tempus egestas sed sed risus pretium. Mattis rhoncus urna neque viverra justo nec. Pellentesque elit eget gravida cum sociis natoque. Semper quis lectus nulla at volutpat diam. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Neque sodales ut etiam sit. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper.
+Now it is just a matter of implementing the method in a fast symbolic algorithm; otherwise, for high enough terms, it will reach the limits of the numerical arithmetic. In the end, the corrections to the energy should look like:
 
 $$
 \begin{aligned}
@@ -77,10 +104,16 @@ $$
 \end{aligned}
 $$
 
-Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Etiam erat velit scelerisque in dictum non consectetur a erat. Nisl tincidunt eget nullam non nisi est sit. Proin fermentum leo vel orci porta non. Diam vulputate ut pharetra sit amet aliquam id diam maecenas. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Mi bibendum neque egestas congue quisque egestas diam in arcu. Iaculis urna id volutpat lacus laoreet non. Sit amet facilisis magna etiam tempor. Massa sed elementum tempus egestas sed. Nibh ipsum consequat nisl vel pretium lectus quam id.
+We can confront the asymptotic behaviour of the tho methods and check if they coincide.
 
 ![Confront between the two methods.](/assets/images/posts/black_perturbative_coeff_confront.png)
 
 ![Division between the coefficients](/assets/images/posts/black_perturbative_coeff_rapport.png)
 
-Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Morbi enim nunc faucibus a pellentesque sit. Facilisis volutpat est velit egestas dui id ornare. Risus ultricies tristique nulla aliquet enim tortor at auctor urna. Nibh sed pulvinar proin gravida. Arcu ac tortor dignissim convallis aenean et. Dui ut ornare lectus sit. Diam vel quam elementum pulvinar etiam. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Egestas maecenas pharetra convallis posuere morbi. Tempor id eu nisl nunc mi ipsum. Odio eu feugiat pretium nibh ipsum consequat nisl vel pretium. Sit amet nisl purus in mollis nunc sed id semper. At consectetur lorem donec massa sapien faucibus et. Porta non pulvinar neque laoreet suspendisse interdum. Tortor vitae purus faucibus ornare suspendisse. Elit duis tristique sollicitudin nibh. Dolor sit amet consectetur adipiscing.
+Thankfully they coincide! We can see from the second graph that the two corrections tend to the same value as the perturbative order increase. Form the second graph; we can also evaluate the first-order correction of the perturbative term in 1/k. The correction could be calculated by doing a numerical fit of which the final result is:
+
+$$
+E_{k}^{(0)}=\sqrt{\frac{15}{2 \pi^{3}}}\left(\frac{15}{8}\right)^{k} \Gamma\left(k+\frac{1}{2}\right)\left(1-\frac{\delta_{0}}{k}\right) \quad \delta_{0} \simeq 1.408
+$$
+
+Calculation the correction with the WKB approach is much more computationally efficient even though this approach still lacks the corrections to the energy on higher orders in 1/k.
