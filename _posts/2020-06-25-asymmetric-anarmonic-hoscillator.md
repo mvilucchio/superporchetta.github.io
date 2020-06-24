@@ -15,7 +15,7 @@ $$
 V(x)=\frac{1}{2} x^{2}-g \frac{x^{3}}{2} \quad g > 0
 $$
 
-This interaction is essentially a harmonic oscillator potential with an odd small perturbation, which order is determined by g. In the limit of $x \rightarrow + \infty$ the cubic potential is greater than the quadratic one, no matter how small g is, so we always have a metastable state.
+This interaction is essentially a harmonic oscillator potential with an odd small perturbation, which order is determined by g. In the limit of $$x \rightarrow + \infty $$ the cubic potential is greater than the quadratic one, no matter how small g is, so we always have a metastable state.
 In the following document, the following analysis is focused on the fundamental state of the harmonics oscillator which energy is 1/2 in atomic units.
 
 ![Cubic Potential](/assets/images/posts/black_potential.png)
@@ -47,13 +47,13 @@ $$
 \text{Im}\,E(\lambda) = - \frac{\gamma (\lambda)}{2}
 $$
 
-The penetration factor can be evaluated asymptotically from its definition. First, we find the roots of the momentum function in the limit of small g, also considering that the energy of the fundamental level is small: $\epsilon$ is two times the energy of the fundamental state. Then we can evaluate the integral of the momentum to the leading order in g. The roots are:
+The penetration factor can be evaluated asymptotically from its definition. First, we find the roots of the momentum function in the limit of small g, also considering that the energy of the fundamental level is small: $$ \epsilon $$ is two times the energy of the fundamental state. Then we can evaluate the integral of the momentum to the leading order in g. The roots we are interested in are:
 
 $$
 \sqrt{\epsilon}+\frac{1}{2} g \epsilon, \quad \frac{1}{g}-g \epsilon
 $$
 
-To evaluate the integral, we can split it into two pieces with respect to a point a much greater than the first extreme and much smaller than the second extreme. For the first integral we can neglect the contribute linear in g to the extrema at the leading order, while for the second integral we want to expand in powers of $\epsilon$. Then the integral of the momentum at the leading order in g is:
+To evaluate the integral, we can split it into two pieces with respect to a point a much greater than the first extreme and much smaller than the second extreme. For the first integral we can neglect the contribute linear in g to the extrema at the leading order, while for the second integral we want to expand in powers of $$ \epsilon $$. Then the integral of the momentum at the leading order in g is:
 
 $$
 \int p d x=\int \sqrt{x^{2}-g x^{3}-\epsilon} d x \simeq \frac{4}{15 g^{2}}-\frac{\epsilon}{4}+\frac{\epsilon}{2} \log \left(\frac{g \sqrt{\epsilon}}{8}\right)
@@ -68,7 +68,13 @@ $$
 \end{aligned}
 $$
 
-Now we have found the decay rate so we can find the energy by integrating over $\lambda$ form 0 to $\infty$. Let us not forget these coefficients are the ones only for the even power of g.
+We can notice that this coefficient tends to 1 as the level considered increases. Explicitly to find the decay rate, we have to multiply the inverse of the period by the coefficient $$ S_0 $$ and by the decay rate.
+
+$$
+\frac{1}{T} S_{n} D
+$$
+
+Now we have found the decay rate so we can find the energy by integrating over $$ \lambda $$ form 0 to $$ \infty $$. Let us not forget these coefficients are the ones only for the even power of g.
 
 $$
 \begin{aligned}
