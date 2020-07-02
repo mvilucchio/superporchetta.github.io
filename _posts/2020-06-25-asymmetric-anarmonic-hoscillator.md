@@ -15,7 +15,7 @@ $$
 V(x)=\frac{1}{2} x^{2}-g \frac{x^{3}}{2} \quad g > 0
 $$
 
-This interaction is essentially a harmonic oscillator potential with an odd small perturbation, which order is determined by g. In the limit of $$x \rightarrow + \infty $$ the cubic potential is greater than the quadratic one, no matter how small g is, so we always have a metastable state.
+This interaction is essentially a harmonic oscillator potential with an odd small perturbation, which order is determined by g. In the limit of $$ x \rightarrow + \infty $$ the cubic potential is greater than the quadratic one, no matter how small g is, so we always have a metastable state.
 In the following document, the following analysis is focused on the fundamental state of the harmonics oscillator which energy is 1/2 in atomic units.
 
 ![Cubic Potential](/assets/images/posts/black_potential.png)

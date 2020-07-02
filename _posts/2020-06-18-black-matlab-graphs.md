@@ -35,4 +35,4 @@ The first line changed the background colour inside the axis while the last two 
 set(t, 'Color', [0.8 0.8 0.8]);
 {% endhighlight %}
 
-To make it easier to use one can encode it in an handy MatLab function. To see this function and other ones I regularly use one can check my GitHub Repo with MatLab functions.
+To make it easier to use one can encode it in an handy MatLab function. It is just a fact of getting the right handels and then changing the respective paramethers.
