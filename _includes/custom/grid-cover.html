@@ -1,0 +1,22 @@
+<div class="grid-library">
+    {% for album in site.data.contentconsumed.albums %}
+        <div class="library-element">
+            <img src="{{ album.coverlink }}" alt="{{ album.title }}">
+            <div class="library-content">
+                <div class="library-title">{{ album.title }}</div>
+                <div class="library-artist">{{ album.artist }}</div>
+                <div class="library-year">{{ album.year }}</div>
+            </div>
+        </div>
+    {% endfor%}
+    {% for album in site.data.contentconsumed.manualalbums %}
+        <div class="library-element">
+            <img src="{{ album.coverlink }}" alt="{{ album.title }}">
+            <div class="library-content">
+                <div class="library-title">{{ album.title }}</div>
+                <div class="library-artist">{{ album.artist }}</div>
+                <div class="library-year">{{ album.year }}</div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

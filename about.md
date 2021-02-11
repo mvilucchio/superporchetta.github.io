@@ -32,6 +32,12 @@ I am currently studying at the [University of Pisa](https://www.df.unipi.it), ma
 
 My main interests are physics and computer science, but I don't really know what I will be talking about.
 
-###### Contribution
+#### Contribution
 
 To make a man like me happy is a simple thing. If you find errors of any kind in any part of the blog you can open an **Issue** on the [GitHub page](https://github.com/superporchetta/superporchetta.github.io).
+
+### Music
+
+I listen to a lot of music. If you want to get to know me start by looking at the albums below. They are just some albums that I've listened to many times not an explicit list of my favourite albums (can someone even do that!?).
+
+{% include custom/grid-cover.html %}
