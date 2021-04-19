@@ -1,258 +1,304 @@
 - title: Animals
-  title-id: [u'b249399e-77a7-3bb5-ba51-7368506e6f02', u'6b11e95c-3408-43c8-9885-8858d0ae2d63', u'294992a7-ac21-4f7c-9d49-98b33963968c', u'6ca16f67-cd71-3446-864f-a90d3fb2288e', u'32f76eef-5004-3e80-bdf8-912298896134']
   artist: Pink Floyd
-  artist-id: 83d91898-7763-47d7-b03b-b92132375c47
   year: 1977
   coverlink: http://coverartarchive.org/release/b249399e-77a7-3bb5-ba51-7368506e6f02/8215817116-500.jpg
 
 - title: Wish You Were Here
-  title-id: [u'f4a8aa35-da90-33d8-9307-c630d38a2bed', u'424db76a-8604-4350-a50f-766f58570470', u'3e16a8ab-5a66-39ce-afe9-ab2b46a223a2', u'404dee1f-0479-36c9-b48c-28f942a0965b', u'8feae97b-5800-34c4-acdd-e64b93bf858a']
   artist: Pink Floyd
-  artist-id: 83d91898-7763-47d7-b03b-b92132375c47
   year: 1975
   coverlink: http://coverartarchive.org/release/f4a8aa35-da90-33d8-9307-c630d38a2bed/1611519564-500.jpg
 
 - title: The Dark Side of the Moon
-  title-id: [u'b84ee12a-09ef-421b-82de-0441a926375b', u'b8ee4313-2915-40f1-913d-ac0315b4ba3d', u'6f69054c-cde6-446b-9c0e-fbbefd1197b2', u'65d67b87-f13a-4f1f-9efa-6d80975921a6', u'fd7d8f8e-c894-4088-a7b4-4a66057f41ee', u'956fbc58-362d-43b8-b880-3779e0508559']
   artist: Pink Floyd
-  artist-id: 83d91898-7763-47d7-b03b-b92132375c47
   year: 1973
   coverlink: http://coverartarchive.org/release/b84ee12a-09ef-421b-82de-0441a926375b/1611507818-500.jpg
 
 - title: Twenty One Pilots
-  title-id: [u'f962ee2d-41cd-4a47-8f8c-dc402eacfaf3', u'796b714b-8b37-4319-8954-e25634c3864d']
   artist: Twenty One Pilots
-  artist-id: a6c6897a-7415-4f8d-b5a5-3a5e05f3be67
   year: 2009
   coverlink: http://coverartarchive.org/release/f962ee2d-41cd-4a47-8f8c-dc402eacfaf3/10077631133-500.jpg
 
 - title: Regional at Best
-  title-id: [u'f4a3f76f-959e-46e9-bfdb-59d8ba3066e1', u'ba3fb069-8d77-48a7-916e-9d6890464953', u'2a92ad7e-c570-461e-8c15-effc66ee3a32']
   artist: Twenty One Pilots
-  artist-id: a6c6897a-7415-4f8d-b5a5-3a5e05f3be67
   year: 2011
   coverlink: http://coverartarchive.org/release/f4a3f76f-959e-46e9-bfdb-59d8ba3066e1/3742879315-500.jpg
 
 - title: Vessel
-  title-id: [u'b349781c-fcb6-40d0-a141-a2fb8e7242e3', u'17d9e24b-296a-4f03-a376-be36c0cdab76', u'8a25c8ed-3d16-48f7-a099-895fb163fc31', u'8242b961-bef1-4a66-806b-27fc85a58574', u'2f31172b-4fac-42a5-9f10-ac401caa3146']
   artist: Twenty One Pilots
-  artist-id: a6c6897a-7415-4f8d-b5a5-3a5e05f3be67
   year: 2013
   coverlink: http://coverartarchive.org/release/b349781c-fcb6-40d0-a141-a2fb8e7242e3/10164434730-500.jpg
 
 - title: Blurryface
-  title-id: [u'523b7019-63ab-41d7-8eed-4021c9a9ec7e', u'a5b0cee4-a5e3-4ab8-9e34-6f2d59951444', u'e68f5155-3a4c-46b6-b6aa-dd5caacb26c5', u'1e129288-e41e-4604-aa52-269f20c026d8', u'c7d35c12-4cfd-4842-bb27-ea777147cb35']
   artist: Twenty One Pilots
-  artist-id: a6c6897a-7415-4f8d-b5a5-3a5e05f3be67
   year: 2015
   coverlink: http://coverartarchive.org/release/a5b0cee4-a5e3-4ab8-9e34-6f2d59951444/16511262758-500.jpg
 
 - title: Trench
-  title-id: [u'a53e52cc-584b-4023-b2ff-f59c85a17627', u'7d35164a-d800-49d4-a02a-3abb61178a02', u'c926622f-8a26-40e6-834a-b8c8bf82d0d7', u'6b796678-b0a5-4c4a-9a5f-d1a54eb615eb', u'5a471032-4e5a-45c0-97de-918163b650c0']
   artist: Twenty One Pilots
-  artist-id: a6c6897a-7415-4f8d-b5a5-3a5e05f3be67
   year: 2018
   coverlink: http://coverartarchive.org/release/c926622f-8a26-40e6-834a-b8c8bf82d0d7/27605560310-500.jpg
 
 - title: Come uccidere un usignolo
-  title-id: [u'6f1bedda-6f52-4f01-aef1-7367c681d9a6']
   artist: Ernia
-  artist-id: 52689f06-8030-460d-bf80-c5a1cda2640f
   year: 2017
   coverlink: http://coverartarchive.org/release/6f1bedda-6f52-4f01-aef1-7367c681d9a6/21154405747-500.jpg
 
 - title: 68
-  title-id: [u'c72baa34-099d-4db7-af0d-0a41e6214835']
   artist: Ernia
-  artist-id: 52689f06-8030-460d-bf80-c5a1cda2640f
   year: 2018
   coverlink: http://coverartarchive.org/release/c72baa34-099d-4db7-af0d-0a41e6214835/21154381578-500.jpg
 
 - title: Autumn
-  title-id: [u'3bad8c8d-1e87-4c74-b7ba-1338da7b655f', u'9087b09f-687c-4944-a580-e88f03b4b8b2']
   artist: Coldworld
-  artist-id: 2f253ad2-e391-48c3-a79c-f44b9a8a0981
   year: 2016
   coverlink: http://coverartarchive.org/release/3bad8c8d-1e87-4c74-b7ba-1338da7b655f/13909053876-500.jpg
 
 - title: The Island Chainsaw Massacre
-  title-id: [u'c760e637-e7b8-4060-8c9b-1bd6a62d9829']
   artist: Salmo
-  artist-id: 8691d44e-7143-4edb-a72c-1cbc7d1a0867
   year: 2011
   coverlink: http://coverartarchive.org/release/c760e637-e7b8-4060-8c9b-1bd6a62d9829/10159781482-500.jpg
 
 - title: Midnite
-  title-id: [u'64d6423a-aab3-4a3d-89b4-1839f368614e']
   artist: Salmo
-  artist-id: 8691d44e-7143-4edb-a72c-1cbc7d1a0867
   year: 2013
   coverlink: http://coverartarchive.org/release/64d6423a-aab3-4a3d-89b4-1839f368614e/3737824397-500.jpg
 
 - title: Hellvisback
-  title-id: [u'a69f630f-4bce-4626-9b41-d3f8d91fa823']
   artist: Salmo
-  artist-id: 8691d44e-7143-4edb-a72c-1cbc7d1a0867
   year: 2016
   coverlink: http://coverartarchive.org/release/a69f630f-4bce-4626-9b41-d3f8d91fa823/18901752111-500.jpg
 
 - title: Playlist
-  title-id: [u'aea44f54-6e1b-4b4e-8901-2f8251c38728', u'c09584a4-dfde-4d3e-84f2-b41df3d760d9']
   artist: Salmo
-  artist-id: 8691d44e-7143-4edb-a72c-1cbc7d1a0867
   year: 2018
   coverlink: http://coverartarchive.org/release/aea44f54-6e1b-4b4e-8901-2f8251c38728/21441659682-500.jpg
 
 - title: Turbe giovanili
-  title-id: [u'939af005-0a97-4cd5-b3de-d9e2b3fad64f', u'49d939a8-8f6b-47c3-bc5d-880119a04905']
   artist: Fabri Fibra
-  artist-id: ca2c3c55-83ff-4a8b-886a-c45156519469
   year: 2002
   coverlink: http://coverartarchive.org/release/939af005-0a97-4cd5-b3de-d9e2b3fad64f/24645607263-500.jpg
 
 - title: Mr. Simpatia
-  title-id: [u'9be6c4f6-ae31-4a27-af82-3cd053b36f9f', u'11c83ec0-12af-4028-884b-70e6c02997a4']
   artist: Fabri Fibra
-  artist-id: ca2c3c55-83ff-4a8b-886a-c45156519469
   year: 2004
   coverlink: http://coverartarchive.org/release/9be6c4f6-ae31-4a27-af82-3cd053b36f9f/17469196523-500.jpg
 
 - title: Tradimento
-  title-id: [u'6695ae56-b3ec-4935-aedb-3c47bbc76ac8']
   artist: Fabri Fibra
-  artist-id: ca2c3c55-83ff-4a8b-886a-c45156519469
   year: 2006
   coverlink: http://coverartarchive.org/release/6695ae56-b3ec-4935-aedb-3c47bbc76ac8/3913182455-500.jpg
 
 - title: Bugiardo
-  title-id: [u'6b17ecbc-9bb2-44a4-b99a-49286d799f3c']
   artist: Fabri Fibra
-  artist-id: ca2c3c55-83ff-4a8b-886a-c45156519469
   year: 2007
   coverlink: http://coverartarchive.org/release/6b17ecbc-9bb2-44a4-b99a-49286d799f3c/5242646330-500.jpg
 
 - title: Controcultura
-  title-id: [u'8f6725ec-cfa3-4b9a-ac3c-0db5aca912ea']
   artist: Fabri Fibra
-  artist-id: ca2c3c55-83ff-4a8b-886a-c45156519469
   year: 2010
   coverlink: http://coverartarchive.org/release/8f6725ec-cfa3-4b9a-ac3c-0db5aca912ea/27735079284-500.jpg
 
 - title: Guerra e pace
-  title-id: [u'6825acbf-7803-42ed-bac4-0f4433888a42', u'f3be8129-4b4e-454a-92cf-b8c16ed4b1da']
   artist: Fabri Fibra
-  artist-id: ca2c3c55-83ff-4a8b-886a-c45156519469
   year: 2013
   coverlink: http://coverartarchive.org/release/6825acbf-7803-42ed-bac4-0f4433888a42/3833276007-500.jpg
 
 - title: Squallor
-  title-id: [u'7268cece-5d2e-4d20-8aa0-308ba3066548', u'402aa782-1c99-419d-a19e-8ea785fd2659']
   artist: Fabri Fibra
-  artist-id: ca2c3c55-83ff-4a8b-886a-c45156519469
   year: 2015
   coverlink: http://coverartarchive.org/release/7268cece-5d2e-4d20-8aa0-308ba3066548/24406740877-500.jpg
 
 - title: Fenomeno
-  title-id: [u'dd644472-fb71-470b-b4f6-91f973cabd70']
   artist: Fabri Fibra
-  artist-id: ca2c3c55-83ff-4a8b-886a-c45156519469
   year: 2017
   coverlink: http://coverartarchive.org/release/dd644472-fb71-470b-b4f6-91f973cabd70/16550448527-500.jpg
 
 - title: Orange County California
-  title-id: [u'e5171671-31fd-4da5-b4a4-43dc22e388ec']
   artist: Tedua
-  artist-id: aec5ce2b-bc3f-408c-a0a9-8556a9a60f25
   year: 2017
   coverlink: http://coverartarchive.org/release/e5171671-31fd-4da5-b4a4-43dc22e388ec/16437966365-500.jpg
 
 - title: Mowgli
-  title-id: [u'5614d1c3-7875-442d-baaa-8fcaea83a452']
   artist: Tedua
-  artist-id: aec5ce2b-bc3f-408c-a0a9-8556a9a60f25
   year: 2018
   coverlink: http://coverartarchive.org/release/5614d1c3-7875-442d-baaa-8fcaea83a452/19496800166-500.jpg
 
 - title: Unplugged
-  title-id: [u'4375e1ad-07f3-4766-b2f1-e541961e251c', u'c306d6da-b03c-4768-b25e-9d2be1ce62f8', u'2fe61e13-b4c4-4a29-a856-f850e26d1fa1', u'35fb7076-871f-4810-84a4-f4a2883e3aa0', u'170a8dab-cd87-4e2a-88e1-4688ff01a1d7']
   artist: Eric Clapton
-  artist-id: 618b6900-0618-4f1e-b835-bccb17f84294
   year: 1992
   coverlink: http://coverartarchive.org/release/4375e1ad-07f3-4766-b2f1-e541961e251c/23459040946-500.jpg
 
 - title: Dalla
-  title-id: [u'c8c5d71b-48f0-4954-a449-068ff41d7b30', u'e04b257b-b703-4c6a-813b-adf65776f375', u'fbf08c2b-6702-4b2a-9fa1-77b10af0b41d', u'd7d4da02-e494-4688-8ff2-17b64933b92b']
   artist: Lucio Dalla
-  artist-id: 60889737-6f73-415e-ba20-5040498512b4
   year: 1980
   coverlink: http://coverartarchive.org/release/e04b257b-b703-4c6a-813b-adf65776f375/7370017569-500.jpg
 
 - title: Bugie
-  title-id: [u'19a7146a-8e65-4512-820a-a3a505cddf16']
   artist: Lucio Dalla
-  artist-id: 60889737-6f73-415e-ba20-5040498512b4
   year: 1986
   coverlink: http://coverartarchive.org/release/19a7146a-8e65-4512-820a-a3a505cddf16/12585411790-500.jpg
 
 - title: Banana Republic
-  title-id: [u'f626f523-304e-305a-8a5e-178334d3566c', u'6c52483a-1484-4739-b115-386ae02a4517', u'3edc9407-a476-3db9-bfda-b91ca2f1d114']
   artist: Lucio Dalla
-  artist-id: 60889737-6f73-415e-ba20-5040498512b4
   year: 1979
   coverlink: http://coverartarchive.org/release/6c52483a-1484-4739-b115-386ae02a4517/4764334447-500.jpg
 
 - title: Rimmel
-  title-id: [u'02135af8-9888-4c5a-b8d9-7d9220e2d956', u'0e5d8e4d-4a88-42dd-8cdb-2ef549b9d031', u'e34d8244-dfff-4649-b112-0501a6d6ad25', u'c88e63ce-324e-47f0-b528-ac35d006fb91', u'12155041-9e1a-40ab-b3fc-1d4b1c131817']
   artist: Francesco De Gregori
-  artist-id: 9128bb19-1bb7-4f20-9e42-7cd9979a6792
   year: 1975
   coverlink: http://coverartarchive.org/release/02135af8-9888-4c5a-b8d9-7d9220e2d956/7801497494-500.jpg
 
 - title: De Gregori
-  title-id: [u'0db423c4-839d-49bc-9ee2-38aa2df7a32d', u'6bd34b16-bf3a-474e-a18d-c9ee84118b52', u'ee8d6d2b-9739-43a4-84d9-fe9a624fdd4a', u'd2324740-3393-4835-98b6-c4bf832152b0']
   artist: Francesco De Gregori
-  artist-id: 9128bb19-1bb7-4f20-9e42-7cd9979a6792
   year: 1978
   coverlink: http://coverartarchive.org/release/0db423c4-839d-49bc-9ee2-38aa2df7a32d/15024366048-500.jpg
 
 - title: Titanic
-  title-id: [u'87274cc1-90c5-48b4-bcbc-699f8c2bc512', u'b6fa08ee-74ac-4a33-b915-05aac9e1fee9', u'd898a174-b706-4b30-9e6c-47cea89dff3b']
   artist: Francesco De Gregori
-  artist-id: 9128bb19-1bb7-4f20-9e42-7cd9979a6792
   year: 1982
   coverlink: http://coverartarchive.org/release/87274cc1-90c5-48b4-bcbc-699f8c2bc512/13269763212-500.jpg
 
 - title: Storia di un impiegato
-  title-id: [u'8ff23c38-6f02-492d-b600-a9744659e102', u'4ffd7939-baba-356f-938f-98b0d06b16ca', u'daecf260-5f49-359e-82c6-d606dd52f5e3', u'd8301b2c-d718-3d31-9ab2-75f74dc511c8', u'ee3ca19f-3d94-3809-b4f7-1793df13d6fa', u'29ec163b-4b38-351c-a997-cc4a8bd637b3']
   artist: Fabrizio De André
-  artist-id: 204db5a8-78f1-4078-801f-ae8f456eeb60
   year: 1973
   coverlink: http://coverartarchive.org/release/daecf260-5f49-359e-82c6-d606dd52f5e3/7801411441-500.jpg
 
 - title: Canzoni
-  title-id: [u'858535e6-e1bf-42f0-8f84-f3ea9907c0d0', u'24133a82-b7af-44e6-a319-abed2f3a983b', u'f599cc01-31d7-36bb-b369-2668a4cd4ccd', u'2e39d626-e87d-32dc-814b-1a7f39059578', u'1ff66438-0cc1-34df-bcaa-a44d0ee9868e', u'41619062-ecbf-3a8c-b91a-581ca51fb8cc']
   artist: Fabrizio De André
-  artist-id: 204db5a8-78f1-4078-801f-ae8f456eeb60
   year: 1974
   coverlink: http://coverartarchive.org/release/858535e6-e1bf-42f0-8f84-f3ea9907c0d0/12776996373-500.jpg
 
 - title: Hunky Dory
-  title-id: [u'4800c809-f22f-4aee-8533-d3fb5884ac5f', u'fec0da1b-b23f-3a96-9e86-e1fcc3d7c827', u'71b6f97a-cd7e-3537-9118-1a3cd633f465', u'7a9ef84b-abac-4969-bee1-5f95e4eda2b9', u'912f6ed5-7963-4220-af44-b0a3af6dee32', u'925e4115-febf-4eb4-a442-e4ee8aecdbc2']
   artist: David Bowie
-  artist-id: 5441c29d-3602-4898-b1a1-b77fa23b8e50
   year: 1971
   coverlink: http://coverartarchive.org/release/4800c809-f22f-4aee-8533-d3fb5884ac5f/12550656175-500.jpg
 
 - title: The Upper Hand
-  title-id: [u'91600b5f-0f94-45e9-85c6-70b0d7a7753a']
   artist: Alltta
-  artist-id: 95a48181-4859-4689-a052-cbb37e8c3cba
   year: 2017
   coverlink: http://coverartarchive.org/release/91600b5f-0f94-45e9-85c6-70b0d7a7753a/15975870240-500.jpg
 
 - title: Facing Giants
-  title-id: [u'92e6f5b5-e140-455c-a17d-55acdeb585e0', u'b50a931c-ae71-4b7f-91b4-13dccb74c2fa']
   artist: Alltta
-  artist-id: 95a48181-4859-4689-a052-cbb37e8c3cba
   year: 2017
   coverlink: http://coverartarchive.org/release/92e6f5b5-e140-455c-a17d-55acdeb585e0/18437791694-500.jpg
+
+- title: The Wall
+  artist: Pink Floyd
+  year: 1979
+  coverlink: https://coverartarchive.org/release/93c4f215-15ae-34a2-981a-9a5fbd700004/14428285805-500.jpg
+
+- title: Lucio Dalla
+  artist: Lucio Dalla
+  year: 1979
+  coverlink: https://coverartarchive.org/release/26d33b74-7cf8-4ffd-8cea-dc868d16ebee/18171380095-500.jpg
+
+- title: Vol. 1
+  artist: Fabrizio De André
+  year: 1967
+  coverlink: https://coverartarchive.org/release-group/a9f0a03f-d9e0-3cd7-9f6f-7644c21500ea/front-500.jpg
+
+- title: Vol. 3
+  artist: Fabrizio De André
+  year: 1968
+  coverlink: https://coverartarchive.org/release/43013380-a909-3572-8ab3-8f362fa0bd1b/22280122734-500.jpg
+
+- title: Dasein sollen
+  artist: Rkomi
+  year: 2016
+  coverlink: https://coverartarchive.org/release/fe8c4b0c-6be5-429c-a31b-dec9e8019731/17062500185-500.jpg
+
+- title: MM..FOOD
+  artist: MF DOOM
+  year: 2004
+  coverlink: https://coverartarchive.org/release-group/ec84ab32-eb41-3d91-a099-7a01c72f21d2/front-500.jpg
+
+- title: Potere
+  artist: Luchè
+  year: 2018
+  coverlink: https://coverartarchive.org/release/9488b5ef-9393-40f2-ae5c-21190cdcf8ab/22143530748-500.jpg
+
+- title: ...ma cosa vuoi che sia una canzone
+  artist: Vasco Rossi
+  year: 1978
+  coverlink: https://ia800400.us.archive.org/14/items/mbid-dc7bac78-2567-4397-a7c2-28a3821601b2/mbid-dc7bac78-2567-4397-a7c2-28a3821601b2-24611902769_thumb500.jpg
+
+- title: Colpa d'Alfredo
+  artist: Vasco Rossi
+  year: 1980
+  coverlink: https://ia803103.us.archive.org/20/items/mbid-8127fac2-5a77-368c-b72d-dc2aba1d4fc9/mbid-8127fac2-5a77-368c-b72d-dc2aba1d4fc9-21145716062_thumb500.jpg
+
+- title: Siamo solo noi
+  artist: Vasco Rossi
+  year: 1981
+  coverlink: https://ia600301.us.archive.org/10/items/mbid-13884df4-9086-4fa6-8d80-41941a8ba1e6/mbid-13884df4-9086-4fa6-8d80-41941a8ba1e6-9175685490_thumb500.jpg
+
+- title: Vado al Massimo
+  artist: Vasco Rossi
+  year: 1982
+  coverlink: https://ia800904.us.archive.org/13/items/mbid-6121aa2e-0553-30b8-b573-ac2404efcbe5/mbid-6121aa2e-0553-30b8-b573-ac2404efcbe5-8812272363_thumb500.jpg
+
+- title: Bollicine
+  artist: Vasco Rossi
+  year: 1983
+  coverlink: https://ia903109.us.archive.org/25/items/mbid-949ad014-5f1e-49e7-90fd-e17165f7f012/mbid-949ad014-5f1e-49e7-90fd-e17165f7f012-24518809080_thumb500.jpg
+
+- title: Cosa Succede in Città
+  artist: Vasco Rossi
+  year: 1985
+  coverlink: https://ia802607.us.archive.org/14/items/mbid-e54b015b-f107-3e89-9a62-4141f486bd3f/mbid-e54b015b-f107-3e89-9a62-4141f486bd3f-8812236924_thumb500.jpg
+
+- title: C'è chi dice no
+  artist: Vasco Rossi
+  year: 1987
+  coverlink: https://ia802903.us.archive.org/15/items/mbid-3e73a69c-fc4e-40f5-a3f8-42c3103b2933/mbid-3e73a69c-fc4e-40f5-a3f8-42c3103b2933-21163353916_thumb500.jpg
+
+- title: Nessun pericolo... per te
+  artist: Vasco Rossi
+  year: 1996
+  coverlink: https://ia803208.us.archive.org/14/items/mbid-8c665681-26b7-4d62-8461-706cbb519237/mbid-8c665681-26b7-4d62-8461-706cbb519237-21182331592_thumb500.jpg
+
+- title: Homework
+  artist: Daft Punk
+  year: 1997
+  coverlink: https://ia800304.us.archive.org/7/items/mbid-770b9b80-10e1-4297-b1fd-46ad0dbb0305/mbid-770b9b80-10e1-4297-b1fd-46ad0dbb0305-1148987477_thumb500.jpg
+
+- title: Discovery
+  artist: Daft Punk
+  year: 2001
+  coverlink: https://ia800700.us.archive.org/10/items/mbid-d073287b-d1bd-4f11-a933-a4386f8cf701/mbid-d073287b-d1bd-4f11-a933-a4386f8cf701-16983025581_thumb500.jpg
+
+- title: Human After All
+  artist: Daft Punk
+  year: 2005
+  coverlink: https://ia800604.us.archive.org/25/items/mbid-77a2f001-ae10-45fe-8d56-6069edfe20fe/mbid-77a2f001-ae10-45fe-8d56-6069edfe20fe-1149015431_thumb500.jpg
+
+- title: Random Access Memeories
+  atrist: Daft Punk
+  year: 2013
+  coverlink: https://ia800702.us.archive.org/31/items/mbid-5000a285-b67e-4cfc-b54b-2b98f1810d2e/mbid-5000a285-b67e-4cfc-b54b-2b98f1810d2e-4173777352_thumb500.jpg
+
+- title: Musica Cicatrene
+  artist: Mezzosangue
+  year: 2012
+  coverlink: https://ia800901.us.archive.org/17/items/mbid-0ddab4d5-64d1-4d52-ba4e-4a8d4436c737/mbid-0ddab4d5-64d1-4d52-ba4e-4a8d4436c737-5849068302_thumb500.jpg
+
+- title: Soul of a Supertramp
+  artist: Mezzosangue
+  year: 2015
+  coverlink: https://ia801200.us.archive.org/33/items/mbid-d267d407-1ecd-4f2f-a3a3-d87c1c334c82/mbid-d267d407-1ecd-4f2f-a3a3-d87c1c334c82-14182198417_thumb500.jpg
+
+- title: Maigre
+  artist: Igorrr & Rub My Dear
+  year: 2014
+  coverlink: https://ia802706.us.archive.org/19/items/mbid-aba0000b-54c2-4f6b-a33b-7ee52facb925/mbid-aba0000b-54c2-4f6b-a33b-7ee52facb925-12732714492_thumb500.jpg
+
+- title: 73 Touches
+  artist: Hocus Pocus
+  year: 2005
+  coverlink: https://ia802800.us.archive.org/23/items/mbid-d23935c0-5a92-4e23-84cf-aa1a2e131b75/mbid-d23935c0-5a92-4e23-84cf-aa1a2e131b75-1189945237_thumb500.jpg
+
+- title: Kinotto
+  artist: Skiantos
+  year: 1979
+  coverlink: https://ia800901.us.archive.org/10/items/mbid-dd242651-eb17-451f-a50a-e02f9775ae28/mbid-dd242651-eb17-451f-a50a-e02f9775ae28-10815976808_thumb500.jpg
